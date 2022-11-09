@@ -19,7 +19,7 @@ export default {
 
 html {
   font-size: 1px;
-  background: linear-gradient(#464246, #cabcb0, #f8f8f8);
+  background: linear-gradient(#52a7cc, #a5d4dc, #dee0e0);
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: none;
