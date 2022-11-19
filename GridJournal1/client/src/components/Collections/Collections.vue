@@ -3,14 +3,24 @@
     <div class="header">
       <h1><span>C</span>ollections</h1>
     </div>
-    <div class="wrapper">
-      <div class="item-container">
-        <div v-for="item in displayItems" :key="item.id">
-          <Item v-bind:item="item" />
-        </div>
-      </div>
-    </div>
-    <CollectionOptions />
+    <VRow>
+      <VCol cols="4" md="6" v-for="item in displayItems" :key="item.id">
+        <VCard>
+          <VCardText>
+            <Item v-bind:item="item" />
+            <CollectionOptions />
+          </VCardText>
+        </VCard>
+      </VCol>
+    </VRow>
+    <!-- <div class="wrapper"> -->
+      <!-- <div class="item-container"> -->
+        <!-- <div v-for="item in displayItems" :key="item.id"> -->
+          <!-- <Item v-bind:item="item" /> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- <CollectionOptions /> -->
   </div>
 </template>
 
