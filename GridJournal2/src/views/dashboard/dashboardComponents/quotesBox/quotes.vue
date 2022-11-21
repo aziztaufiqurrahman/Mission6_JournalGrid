@@ -1,9 +1,9 @@
 <template>
   <div class="app">
-    <HeaderComponent title="Random Quotes with Vue.js" />
+    <HeaderComponent title="My Quotes of The Day" />
     <QuoteComponent :quote="quote" />
     <div class="button-container">
-      <button @click="getQuote">NEW QUOTE</button>
+      <button @click="getQuote">Quotes Lagi Dong</button>
     </div>
   </div>
 </template>
