@@ -9,13 +9,15 @@
       ></v-img>
   
       <v-card-title>
-        Top western road trips
+        Halo, Dear..
       </v-card-title>
   
       <v-card-subtitle>
-        1,000 miles of wonder
+        Di sini tempat yang tepat buat kamu untuk menceritakan semua keluh kesah dan kesenanganmu 😊
       </v-card-subtitle>
-  
+      
+      
+
       <v-card-actions>
         <v-btn
           color="orange lighten-2"
@@ -24,7 +26,7 @@
         >
           Explore
         </v-btn>
-  
+
         <v-spacer></v-spacer>
   
         <v-btn
@@ -38,7 +40,10 @@
       <v-expand-transition>
         <div v-show="show">
           <v-divider></v-divider>
-  
+          <v-card-actions>
+            <input type="date" v-model="date" required/>
+            <input type="time" v-model="time" required/>
+          </v-card-actions> 
           <v-container class="bg-surface-variant">
                     <v-row no-gutters>
                       <v-col>
@@ -229,3 +234,4 @@ export default {
   }),
 }
 </script>
+
