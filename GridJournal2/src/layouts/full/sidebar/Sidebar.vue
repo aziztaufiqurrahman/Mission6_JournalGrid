@@ -37,7 +37,7 @@ const sidebarMenu = ref(sidebarItems);
         </template>
       </v-list>
     </div>
-    <div class="pa-4 ma-4 bg-light-primary rounded-lg text-center">
+    <!-- <div class="pa-4 ma-4 bg-light-primary rounded-lg text-center">
       <img src="@/assets/images/sidebar-buynow-bg.svg" />
       <h4 class="font-weight-regular mb-3">Get Template for Free</h4>
       <v-btn class="mb-2" href="https://www.wrappixel.com/templates/flexy-vuejs-admin-free/" block>Download Free</v-btn>
@@ -47,6 +47,6 @@ const sidebarMenu = ref(sidebarItems);
         block
         >Check Pro</v-btn
       >
-    </div>
+    </div> -->
   </div>
 </template>

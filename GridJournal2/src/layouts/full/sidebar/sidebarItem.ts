@@ -9,24 +9,24 @@ export default [
     icon: "mdi-book",
     to: "/ui-components/alert",
   },
-  {
-    title: "Buttons",
-    icon: "mdi-radiobox-blank",
-    to: "/ui-components/buttons",
-  },
-  {
-    title: "Cards",
-    icon: "mdi-card-outline",
-    to: "/ui-components/cards",
-  },
-  {
-    title: "Menus",
-    icon: "mdi-form-dropdown",
-    to: "/ui-components/menus",
-  },
-  {
-    title: "Tables",
-    icon: "mdi-table",
-    to: "/ui-components/tables",
-  },
+  // {
+  //   title: "Buttons",
+  //   icon: "mdi-radiobox-blank",
+  //   to: "/ui-components/buttons",
+  // },
+  // {
+  //   title: "Cards",
+  //   icon: "mdi-card-outline",
+  //   to: "/ui-components/cards",
+  // },
+  // {
+  //   title: "Menus",
+  //   icon: "mdi-form-dropdown",
+  //   to: "/ui-components/menus",
+  // },
+  // {
+  //   title: "Tables",
+  //   icon: "mdi-table",
+  //   to: "/ui-components/tables",
+  // },
 ];

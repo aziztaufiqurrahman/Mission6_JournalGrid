@@ -1,4 +1,4 @@
-<script setup lang="ts"></script>
+<!-- <script setup lang="ts"></script>
 
 <template>
   <v-row>
@@ -48,4 +48,4 @@
       </v-card>
     </v-col>
   </v-row>
-</template>
+</template> -->
