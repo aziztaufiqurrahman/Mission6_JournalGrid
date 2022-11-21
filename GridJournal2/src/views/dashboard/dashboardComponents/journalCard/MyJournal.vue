@@ -24,7 +24,7 @@
           text
           @click="show = !show"
         >
-          Explore
+          Start Here
         </v-btn>
 
         <v-spacer></v-spacer>
