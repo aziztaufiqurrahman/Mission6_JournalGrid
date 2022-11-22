@@ -4,7 +4,7 @@
       max-width="auto"
     >
       <v-img
-        src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+        src="https://i.pinimg.com/564x/de/b8/93/deb89387bb83d452f3c11833347a584a.jpg"
         height="200px"
       ></v-img>
   
