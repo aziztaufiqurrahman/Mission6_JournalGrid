@@ -9,11 +9,11 @@ export default [
     icon: "mdi-book",
     to: "/ui-components/alert",
   },
-  // {
-  //   title: "Buttons",
-  //   icon: "mdi-radiobox-blank",
-  //   to: "/ui-components/buttons",
-  // },
+  {
+    title: "History",
+    icon: "mdi-history",
+    to: "/ui-components/buttons",
+  },
   // {
   //   title: "Cards",
   //   icon: "mdi-card-outline",

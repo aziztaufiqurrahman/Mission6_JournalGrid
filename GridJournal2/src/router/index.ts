@@ -21,12 +21,12 @@ const router = createRouter({
           component: () =>
             import("@/views/ui-components/Alerts.vue"),
         },
-        // {
-        //   name: "Buttons",
-        //   path: "ui-components/buttons",
-        //   component: () =>
-        //     import("@/views/ui-components/Buttons.vue"),
-        // },
+        {
+          name: "History",
+          path: "ui-components/buttons",
+          component: () =>
+            import("@/views/ui-components/Buttons.vue"),
+        },
         // {
         //   name: "Cards",
         //   path: "ui-components/cards",
