@@ -2,7 +2,6 @@
 import { ref } from "vue";
 
 import Quotes from "./dashboardComponents/quotesBox/quotes.vue";
-import ProductMonthTable from "./dashboardComponents/project-month-table/ProductMonthTable.vue";
 import BlogCard from "./dashboardComponents/blog-card/BlogCard.vue";
 </script>
 
