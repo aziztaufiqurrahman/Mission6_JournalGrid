@@ -10,9 +10,18 @@
         height="193.5px"
       ></v-img>
 
+<<<<<<< Updated upstream
       <v-card-title>
         {{item.title}}
       </v-card-title>
+=======
+import ButtonsDefault from "@/components/vuetifyComponents/buttons/ButtonsDefault.vue";
+// import ButtonsOutlined from "@/components/vuetifyComponents/buttons/ButtonsOutlined.vue";
+// import ButtonsBlock from "@/components/vuetifyComponents/buttons/ButtonsBlock.vue";
+// import ButtonsIcon from "@/components/vuetifyComponents/buttons/ButtonsIcon.vue";
+// import ButtonsRounded from "@/components/vuetifyComponents/buttons/ButtonsRounded.vue";
+// import ButtonsSizing from "@/components/vuetifyComponents/buttons/ButtonsSizing.vue";
+>>>>>>> Stashed changes
 
       <v-card-subtitle>
         {{item.date}}
