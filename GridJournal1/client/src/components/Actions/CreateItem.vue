@@ -27,7 +27,6 @@
             </div>
             <button type="submit"><h5>Submit</h5></button>
         </form>
-
     </div>        
 </template>
 
