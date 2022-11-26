@@ -40,10 +40,13 @@
       <v-expand-transition>
         <div v-show="show">
           <v-divider></v-divider>
+          <p>{{currentDate()}}</p>
           <v-card-actions>
             <input type="date" v-model="date" required/>
             <input type="time" v-model="time" required/>
+            <!-- <span>{{moment(date).format('YYYY-MM-DD')}}</span> -->
           </v-card-actions> 
+          
           <v-container class="bg-surface-variant">
                     <v-row no-gutters>
                       <v-col>
@@ -228,10 +231,19 @@
   </template>
 
 <script>
+// import moment from 'moment'
 export default {
   data: () => ({
     show: false,
   }),
+  methods: {
+    currentDate() {
+      const current = new Date();
+      const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+      return date;
+    }
+  }
 }
 </script>
+
 
