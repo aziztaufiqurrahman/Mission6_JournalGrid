@@ -28,12 +28,21 @@
         </v-btn>
 
         <v-spacer></v-spacer>
-  
+
         <v-btn
-          icon
+          color="orange lighten-2"
+          text
           @click="show = !show"
         >
-          <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+          Next
+        </v-btn>
+
+        <v-btn
+          color="orange lighten-2"
+          text
+          @click="show = !show"
+        >
+          Prev
         </v-btn>
       </v-card-actions>
   
